@@ -29,8 +29,24 @@ The black areas are obstacles hitting which, the agent get a reward of -50. The 
 
 ##### Deterministic case
 ![alt text](https://github.com/mayankbansal82/Reinforcement-Learning-algorithms/blob/main/images/Discrete_VI.png)
+Time taken for Value Iteration to converge is 0.4560210704803467 seconds.
+
+![alt text](https://github.com/mayankbansal82/Reinforcement-Learning-algorithms/blob/main/images/Discrete_PI.png)
+Time taken for Policy Iteration to converge is 1.5746524333953857 seconds.
 
 
+![alt text](https://github.com/mayankbansal82/Reinforcement-Learning-algorithms/blob/main/images/Discrete_GPI.png)
+Time taken for Generalized Policy Iteration to converge is 0.27486228942871094 seconds.
+
+##### Stochastic case
+![alt text](https://github.com/mayankbansal82/Reinforcement-Learning-algorithms/blob/main/images/Sto_VI.png)
+Time taken for Value Iteration to converge is 1.2053732872009277 seconds.
+
+![alt text](https://github.com/mayankbansal82/Reinforcement-Learning-algorithms/blob/main/images/Sto_PI.png)
+Time taken for Policy Iteration to converge is 4.194683790206909 seconds.
+
+![alt text](https://github.com/mayankbansal82/Reinforcement-Learning-algorithms/blob/main/images/Sto_GPI.png)
+Time taken for Generalized Policy Iteration to converge is 0.9754695892333984 seconds.
  
 
 
