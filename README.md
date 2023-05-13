@@ -2,6 +2,9 @@
 
 This repository contains implementations of various reinforcement learning algorithms. The algorithms include:
 - Dynamic Programming
+- Monte Carlo
+- SARSA, Q-Learning
+- DynaQ
 
 ### Prerequisites
 The code is written in Python and requires the following packages:
@@ -47,6 +50,24 @@ Time taken for Policy Iteration to converge is 4.194683790206909 seconds.
 
 ![alt text](https://github.com/mayankbansal82/Reinforcement-Learning-algorithms/blob/main/images/Sto_GPI.png)
 Time taken for Generalized Policy Iteration to converge is 0.9754695892333984 seconds.
+
+#### Monte Carlo
+![alt text](https://github.com/mayankbansal82/Reinforcement-Learning-algorithms/blob/main/images/MCES.png)
+![alt text](https://github.com/mayankbansal82/Reinforcement-Learning-algorithms/blob/main/images/MC_eps.png)
+
+#### Q-Learning and SARSA
+Here we see the results of these two algorithms on the cliff-walking problem
+![alt text](https://github.com/mayankbansal82/Reinforcement-Learning-algorithms/blob/main/images/cliff_walking1.png)
+![alt text](https://github.com/mayankbansal82/Reinforcement-Learning-algorithms/blob/main/images/plots.png)
+
+#### Dyna-Q
+![alt text](https://github.com/mayankbansal82/Reinforcement-Learning-algorithms/blob/main/images/dynaq.png)
+As the number of steps are increased the number of episodes required to obtain optimal policy is decreased.
+
+
+
+
+
  
 
 
